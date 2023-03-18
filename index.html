@@ -31,7 +31,7 @@
 	</section>
 
 	<!-- hero -->
-	<section id="hero" class="py-8">
+	<section id="hero" class="py-8 md:py-16">
 		
 		<div class="container mx-auto p-5 flex flex-col justify-between items-center md:flex-row" >
 			<div>
@@ -79,12 +79,12 @@
 						Our design services starts and ends best in class experience.
 					</div>
 				</div>
-				<div class="card-image">
+				<div class="card-image py-1">
 					<img src="imgs/services-1.png" alt="">
 				</div>
-				<p class="text-2xl text-blue-500">
+				<button class="bg-white border-2 border-brightRed text-brightRed rounded-md px-5 py-3 hover:bg-gray-800">
 					See More
-				</p>
+				</button>
 			</div>
 			<!-- card 2 -->
 			<div class="card flex flex-col space-y-8 items-center p-6 md:py-12 rounded-2xl shadow-lg bg-white">
@@ -99,9 +99,9 @@
 				<div class="card-image">
 					<img src="imgs/services-2.png" alt="">
 				</div>
-				<p class="text-2xl text-blue-500">
+				<button class="bg-white border-2 border-brightRed text-brightRed rounded-md px-5 py-3 hover:bg-gray-800">
 					See More
-				</p>
+				</button>
 			</div>
 			<!-- card 3 -->
 			<div class="card flex flex-col space-y-8 items-center p-6 xl:py-12 rounded-2xl shadow-lg bg-white">
@@ -116,13 +116,35 @@
 				<div class="card-image">
 					<img src="imgs/services-3.png" alt="">
 				</div>
-				<p class="text-2xl text-blue-500">
+				<button class="bg-white border-2 border-brightRed text-brightRed rounded-md px-5 py-3 hover:bg-gray-800">
 					See More
-				</p>
+				</button>
 			</div>
 
 		</div>
 
+	</section>
+
+	<!-- cta section -->
+
+	<section id="cta" class=" bg-brightRed">
+		
+		<div class="container mx-auto flex flex-col md:flex-row justify-around items-center  p-8 md:space-y-0">
+			<!-- description -->
+			<div class="flex justify-between itexs-center">
+				<!-- <img src="imgs/ticket-icon.png" alt=""> -->
+				<p class=" text-white text-2xl">
+					<span class=" font-bold">Get a professional service.</span>
+				</p>
+			</div>
+
+			<!-- button -->
+	
+			<button class="bg-white text-brightRed rounded-md px-5 py-3 hover:bg-gray-800">
+				Submit
+			</button>
+			
+		</div>
 	</section>
 
 
