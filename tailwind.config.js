@@ -14,6 +14,7 @@ module.exports = {
         brightRedLight:'hsl(12,80%,69%)',
         darkBlue:'hsl(228,39%,23%)',
         brightRedSupLight:'hsl(12,88%,95%)',
+        lightGray: '#EAEAEA'
       }
     },
   },
